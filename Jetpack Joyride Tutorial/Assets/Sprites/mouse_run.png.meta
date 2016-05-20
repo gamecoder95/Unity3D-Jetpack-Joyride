@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: ddc5ede9e5ba4f54bbaae37d702771c9
-timeCreated: 1461799922
-licenseType: Pro
+timeCreated: 1463755571
+licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: mouse_run_0
+    21300002: mouse_run_1
+    21300004: mouse_run_2
+    21300006: mouse_run_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -17,7 +21,7 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
@@ -30,25 +34,113 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  allowsAlphaSplitting: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: mouse_run_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 162
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: 23}
+        - {x: 38, y: 22}
+        - {x: 32, y: 15}
+        - {x: 37, y: 21}
+        - {x: 46, y: 29}
+        - {x: 51, y: 31}
+        - {x: 51, y: 48}
+        - {x: 39, y: 71}
+        - {x: -35, y: 71}
+        - {x: -79, y: 2}
+        - {x: -79, y: -48}
+        - {x: -43, y: -76}
+        - {x: 37, y: -76}
+        - {x: 51, y: -13}
+        - {x: 51, y: 22}
+        - {x: 45, y: 24}
+    - name: mouse_run_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 162
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 73}
+        - {x: -54, y: 44}
+        - {x: -79, y: -10}
+        - {x: -79, y: -25}
+        - {x: -74, y: -35}
+        - {x: -26, y: -76}
+        - {x: -24, y: -77}
+        - {x: 29, y: -77}
+        - {x: 49, y: -14}
+        - {x: 49, y: 67}
+        - {x: 41, y: 73}
+    - name: mouse_run_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 162
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 72}
+        - {x: -33, y: 72}
+        - {x: -80, y: 8}
+        - {x: -80, y: -45}
+        - {x: -50, y: -75}
+        - {x: 42, y: -75}
+        - {x: 49, y: -34}
+        - {x: 49, y: 57}
+    - name: mouse_run_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 162
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: 73}
+        - {x: -79, y: 8}
+        - {x: -79, y: -49}
+        - {x: -36, y: -76}
+        - {x: 11, y: -76}
+        - {x: 49, y: -38}
+        - {x: 49, y: 73}
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
