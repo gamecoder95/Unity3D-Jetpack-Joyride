@@ -24,9 +24,17 @@ public class MouseController : MonoBehaviour {
 
 	void AdjustJetpack (bool jetpackActive)
 	{
-		// Fix this!
-		jetpack.emission.enabled (!grounded);
-		jetpack.emission.rate = jetpackActive ? 300.0f : 75.0f;
+		// Enable the jetpack emission
+		ParticleSystem.EmissionModule em = jetpack.emission;
+		em.enabled = true;
+
+		// Set the emission rate
+		ParticleSystem.MinMaxCurve rate = em.rate;
+		rate.constantMin = jetpackActive ? 300.0f : 75.0f;
+		rate.constantMax = jetpackActive ? 300.0f : 75.0f;
+		em.rate = rate;
+
+
 	}
 
 	void UpdateGroundedStatus()
